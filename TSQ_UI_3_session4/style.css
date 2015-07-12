@@ -1,6 +1,10 @@
 body {
     background-color: #E7E7E7;
 }
+ul{
+    -webkit-margin-before: 0em;
+    -webkit-padding-start: 0px;
+}
 a{
     color:#1471da;
     text-decoration:none;
@@ -30,10 +34,12 @@ h3 {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
 }
-h4{
+h4 {
     font-weight: normal;
-    margin:15px;
+    margin: 0px;
+    margin-top: 30px;
     font-size: 170%;
+    margin-bottom: 30px;
 }
 .box {
     float: left;
@@ -85,16 +91,20 @@ h4{
     padding-bottom:14px;
     font-size: 80%;
 }
+.con-content{
+    margin-left: 34px;
+}
 .link-content{
     margin-top: 50px;
 }
-.link-content ul li{
+.link-content ul li {
     list-style: none;
-    border-top: 1px dashed black;
+    border-top: 1px dashed rgb(206, 206, 206);
+    margin-right: 40px;
 }
 .link-content ul li a {
     font-weight: bold;
-    padding: 8px 0 8px 0;
+    padding: 13px 0 13px 0;
     display: block;
 }
 .view{

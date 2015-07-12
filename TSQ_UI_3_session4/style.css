@@ -1,0 +1,161 @@
+body {
+    background-color: #E7E7E7;
+}
+a{
+    color:#1471da;
+    text-decoration:none;
+}
+p {
+    text-align: center;
+    color: #8C8C8C;
+    font-size: 80%;
+}
+h1 {
+    font-size: 242%;
+    color: black;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 90%;
+    -webkit-margin-before: 0.8em;
+    -webkit-margin-after: 0.4em;
+}
+h3 {
+    font-size: 70%;
+    margin-left: 30px;
+    color: #417DCE;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+h4{
+    font-weight: normal;
+    margin:15px;
+    font-size: 170%;
+}
+.box {
+    float: left;
+    height: 331px;
+    width: 425px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #BBB6B6;
+    margin-left: 33px;
+    margin-top: 20px;
+    background-color: white;
+}
+.box2 {
+    float: left;
+    height: 411px;
+    width: 491px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.con-box {
+    float: left;
+    height: 359px;
+    width: 439px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #BBB6B6;
+    margin-left: 39px;
+    margin-top: 40px;
+    background-color: white;
+}
+.icon{
+    background: url("sprite.png") 0 0 no-repeat;
+    display :inline-block;
+    margin: -4px 5px 0 0;
+    vertical-align: text-top;
+}
+.icon-connected {
+    background-position: -100px -250px;
+    height: 26px;
+    width: 23px;
+    margin-left: 30px;
+}
+.header{
+    background-color: #fbfbfb;
+    color:#99CC00;
+    border-bottom: 1px solid #BBB6B6;
+    padding-top: 20px;
+    padding-bottom:14px;
+    font-size: 80%;
+}
+.link-content{
+    margin-top: 50px;
+}
+.link-content ul li{
+    list-style: none;
+    border-top: 1px dashed black;
+}
+.link-content ul li a {
+    font-weight: bold;
+    padding: 8px 0 8px 0;
+    display: block;
+}
+.view{
+    float : right;
+    margin-right : 30px;
+}
+.ra  {
+    text-align: left;
+    color: #8C8C8C;
+    font-size: 90%;
+    margin-left: 30px;
+    -webkit-margin-before: 0em;
+}
+.date {
+    font-size: 60%;
+    text-align: left;
+    margin-left: 30px;
+    color: #8C8C8C;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+.dull-line {
+    border-top: 2px solid #CCCCCC;
+}
+.box-split {
+    -webkit-margin-after: 0em;
+}
+.price{
+    display: inline-block;
+}
+.link1, .link2 {
+    display: inline-block;
+    color: cornflowerblue;
+    margin-left: 62px;
+    font-size: 91%;
+}
+.button {
+    display: inline-block;
+    height: 39px;
+    width: 155px;
+    border: 1px solid #000;
+    margin-left: 44px;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 0);
+}
+.lower-box {
+    -webkit-margin-before: 0em;
+       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+0,ffffff+100 */
+    background: rgb(229,229,229); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+.dashed-line {
+    border-top: 1px dashed #8C8C8C;
+    margin-left: 30px;
+    margin-right: 30px;
+}

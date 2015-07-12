@@ -1,0 +1,36 @@
+
+body {	background-color:lightgray;
+		text-align:center;
+		font-size:150%;
+		}
+div.top 	{	background-color:lightblue;
+		border-width: 5px;
+		border-style: groove;
+		border-color: black;
+		padding:20px;
+		}
+div.menuList {
+			top : 1;
+			background : #34495e;
+}
+h1   {color:black}
+h2   {color:lightblue ;
+	font-size : 80%;}
+h3    {color: blue;
+	font-size: 80%;
+	}
+img.pizzaImage {width:304px;
+			height:228px;}
+img.tableImage {width:100px;
+			height:100px;}
+div.centered {float : left;
+			padding : 150px;}
+table.TT,td {
+		border: 1px solid blue;
+		border-collapse:collapse;
+		}
+div.foot {
+		float : left;
+		
+		}
+p    {color:green;}

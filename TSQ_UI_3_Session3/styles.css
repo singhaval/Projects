@@ -1,0 +1,86 @@
+body{
+    font:14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 16px;
+    margin:0px;
+    padding:0px;
+}
+a{
+    color:#333333;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin:0px;
+    padding:0px
+}
+.leftnav{
+    width:250px;
+}
+.leftnav li{
+    width:100%;
+}
+.leftnav li a{
+    border:1px solid #c1c1c1;
+    border-bottom:0px;
+    padding:10px;
+    /* padding: 10px 20px 30px 40px; T R B L */
+    display: inline-block;
+    width:100%;
+    box-sizing: border-box; /* CSS3 property */
+    background-color:#f1f1f1;
+    font-weight: bold;
+}
+.leftnav li a:hover{ /* Pseudo Classes - states : hover, active, visited (only for hyper links)*/
+    background-color:#fff;
+}
+.leftnav li:last-child a{
+    border-bottom:1px solid #c1c1c1;
+}
+.icon{
+    background: url("images/sprite.png") no-repeat 0 -67px;
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right:15px
+}
+.icon-voice{
+    background-position: -56px -158px;
+    width: 13px;
+    height: 25px;
+}
+.icon-home {
+    background-position: -113px -110px;
+    width: 21px;
+    height: 19px;
+}
+.icon-dvr {
+    background-position: 0px -81px;
+    width: 19px;
+    height: 25px;
+}
+.icon-xfinity {
+    background-position: -27px -49px;
+    width: 26px;
+    height: 18px;
+}
+.icon-tv {
+    background-position: -77px -160px;
+    width: 19px;
+    height: 21px;
+}
+.icon-cg {
+    background-position: -85px -85px;
+    width: 19px;
+    height: 20px;
+}
+.icon-hns {
+    background-position: -82px -66px;
+    width: 18px;
+    height: 19px;
+}
+.icon-su {
+    background-position: -19px -83px;
+    width: 20px;
+    height: 20px;
+}

@@ -185,7 +185,16 @@ h4 {
     border: 1px solid black;
     margin-left: 15px;
     margin-top: 12px;
-    background-color: white;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,b5bdc8+29,99a0a8+34,b5bdc8+37,ffffff+42,ffffff+55,ffffff+100 */
+    background: rgb(181,189,200); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(181,189,200,1) 29%, rgba(153,160,168,1) 34%, rgba(181,189,200,1) 37%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(181,189,200,1)), color-stop(29%,rgba(181,189,200,1)), color-stop(34%,rgba(153,160,168,1)), color-stop(37%,rgba(181,189,200,1)), color-stop(42%,rgba(255,255,255,1)), color-stop(55%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(181,189,200,1) 29%,rgba(153,160,168,1) 34%,rgba(181,189,200,1) 37%,rgba(255,255,255,1) 42%,rgba(255,255,255,1) 55%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(181,189,200,1) 29%,rgba(153,160,168,1) 34%,rgba(181,189,200,1) 37%,rgba(255,255,255,1) 42%,rgba(255,255,255,1) 55%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(181,189,200,1) 29%,rgba(153,160,168,1) 34%,rgba(181,189,200,1) 37%,rgba(255,255,255,1) 42%,rgba(255,255,255,1) 55%,rgba(255,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(181,189,200,1) 29%,rgba(153,160,168,1) 34%,rgba(181,189,200,1) 37%,rgba(255,255,255,1) 42%,rgba(255,255,255,1) 55%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 }
 .container{
     float:left;
